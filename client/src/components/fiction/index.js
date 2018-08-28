@@ -1,3 +1,1 @@
-export { default } from "./SigninBox";
-
-export { default } from "./"
+export { default } from "./Fiction";
