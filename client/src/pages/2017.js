@@ -21,14 +21,17 @@
 //        )
 // export default About;
 
-
-import React from 'react';
+import React, { Component } from 'react';
 // import Component from '../components/Componentname;
+import Header from "../components/Header";
 
-const Seventeen = () => (
-<div>
+class Seventeen extends Component {
 
-</div>
-)
+    render() {
+        return (
+            <Header />
+        )
+    }
+}
 
 export default Seventeen;

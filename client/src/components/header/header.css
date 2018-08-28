@@ -1,0 +1,14 @@
+.header-box {
+    border-bottom: 1px solid black;
+}
+
+.title {
+    font-family: 'Cardo', serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 50px;
+}
