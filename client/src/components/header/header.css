@@ -6,9 +6,11 @@
     font-family: 'Cardo', serif;
     font-size: 80px;
     text-align: center;
+    margin-top: 0;
 }
 
 .slogan {
     text-align: center;
     font-size: 50px;
+    font-family: 'Cardo', serif;
 }
