@@ -4,16 +4,7 @@ import "./NavBar.css";
 
 const NavBar = props => (
     <ul className="nav nav-tabs">
-    <li className="nav-item">
-      <Link
-        to="/"
-        className={
-          window.location.pathname === "/" ? "nav-link active" : "nav-link"
-        }
-      >
-        Home
-      </Link>
-    </li>
+    <a class="navbar-brand">Choose a year:</a>
     <li className="nav-item">
       <Link
         to="/2017"
@@ -26,9 +17,9 @@ const NavBar = props => (
     </li>
     <li className="nav-item">
       <Link
-        to="/2018"
+        to="/"
         className={
-          window.location.pathname === "/blog" ? "nav-link active" : "nav-link"
+          window.location.pathname === "/" ? "nav-link active" : "nav-link"
         }
       >
         2018
@@ -44,6 +35,17 @@ const NavBar = props => (
         2019
       </Link>
     </li>
+    <li className="nav-item">
+      <Link
+        to="/wishlist"
+        className={
+          window.location.pathname === "/wishlist" ? "nav-link active" : "nav-link"
+        }
+      >
+        Reading Wish List
+      </Link>
+    </li>
+
   </ul>
 
 )

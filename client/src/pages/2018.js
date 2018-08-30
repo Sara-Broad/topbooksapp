@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from "../components/Header";
 import NavBar from '../components/NavBar/NavBar';
+import FictionBox from "../components/FictionBox/FictionBox";
 
 class Eighteen extends Component {
 
@@ -9,6 +10,7 @@ class Eighteen extends Component {
             <div>
             <Header />
             <NavBar />
+            <FictionBox />
             </div>
         )
     }
