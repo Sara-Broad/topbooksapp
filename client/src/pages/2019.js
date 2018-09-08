@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Header from "../components/Header";
 import NavBar from "../components/NavBar";
+import FictionBox from "../components/FictionBox/FictionBox";
+import NonFictionBox from "../components/NonFictionBox/NonFictionBox";
+import Footer from "../components/Footer/Footer";
 
 class Nineteen extends Component {
 
@@ -9,6 +12,9 @@ class Nineteen extends Component {
             <div>
             <Header />
             <NavBar />
+            <FictionBox />
+            <NonFictionBox />
+            <Footer />
             </div>
         )
     }

@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = props => (
     <div className="footer">
-    <p>Top Book Apps 2018 &#174;</p>
+    <p className="footer-text">Top Book App 2018</p>
     </div>
 )
 
