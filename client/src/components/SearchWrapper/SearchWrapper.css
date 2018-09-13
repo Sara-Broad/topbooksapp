@@ -1,0 +1,11 @@
+.search-wrapper {
+    border: 1px solid black;
+    width: 600px;
+    height: 100px;
+    margin-left: 340px;
+    margin-top: 40px;
+}
+
+.search-title {
+    text-align: center;
+}
