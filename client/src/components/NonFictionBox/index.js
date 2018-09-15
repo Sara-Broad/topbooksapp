@@ -1,1 +1,1 @@
-export { defaut } from "./FictionBox";
+export { default } from "./FictionBox";

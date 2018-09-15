@@ -4,9 +4,9 @@ import NavBar from '../components/NavBar/NavBar';
 import FictionBox from "../components/FictionBox/FictionBox";
 import NonFictionBox from "../components/NonFictionBox/NonFictionBox";
 import Footer from "../components/Footer/Footer";
-import SearchWrapper from '../components/SearchWrapper/SearchWraper';
+import SearchWrapper from '../components/SearchWrapper/SearchWrapper';
 // import SearchResultsBox from "../components/SearchResultsBox/SearchResultsBox";
-// import SearchBar from "../components/SearchBar/SearchBar";
+import SearchBar from "../components/SearchBar/SearchBar";
 
 class Eighteen extends Component {
 
@@ -15,10 +15,11 @@ class Eighteen extends Component {
             <div>
             <Header />
             <NavBar />
+            
             <SearchWrapper>
-            {/* <SearchBar />
-            <SearchResultsBox /> */}
+            <SearchBar />
             </SearchWrapper>
+
             <FictionBox />
             <NonFictionBox />
             <Footer />

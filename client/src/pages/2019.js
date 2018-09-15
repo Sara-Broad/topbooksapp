@@ -4,6 +4,8 @@ import NavBar from "../components/NavBar";
 import FictionBox from "../components/FictionBox/FictionBox";
 import NonFictionBox from "../components/NonFictionBox/NonFictionBox";
 import Footer from "../components/Footer/Footer";
+import SearchWrapper from '../components/SearchWrapper/SearchWrapper';
+
 // import SearchResultsBox from "../components/SearchResultsBox/SearchResultsBox";
 // import SearchBar from "../components/SearchBar/SearchBar";
 
