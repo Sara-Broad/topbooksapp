@@ -9,8 +9,15 @@ const SearchWrapper = props => (
     name="searchbar"
     placeholder="Search for a book"
     />
-
+    <button
+    type="submit"
+    //onClick={props.handleFormSubmit}
+    className="btn btn-success"
+    >
+    Submit
+    </button>
     </div>
 )
 
 export default SearchWrapper;
+

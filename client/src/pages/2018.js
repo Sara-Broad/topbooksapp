@@ -10,6 +10,12 @@ import SearchBar from "../components/SearchBar/SearchBar";
 
 class Eighteen extends Component {
 
+      state = {
+          search: "",
+          books: [],
+          results: []
+      };
+
     render() {
         return (
             <div>
