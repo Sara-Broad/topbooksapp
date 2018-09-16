@@ -15,9 +15,8 @@ class Eighteen extends Component {
             <div>
             <Header />
             <NavBar />
-            
+          
             <SearchWrapper>
-            <SearchBar />
             </SearchWrapper>
 
             <FictionBox />
