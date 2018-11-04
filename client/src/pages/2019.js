@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import Header from "../components/Header";
-import NavBar from "../components/NavBar";
+import NavBar from "../components/NavBar/NavBar";
 import FictionBox from "../components/FictionBox/FictionBox";
 import NonFictionBox from "../components/NonFictionBox/NonFictionBox";
-import Footer from "../components/Footer/Footer";
+// import Footer from "../components/Footer/Footer";
 import SearchWrapper from '../components/SearchWrapper/SearchWrapper';
 
 // import SearchResultsBox from "../components/SearchResultsBox/SearchResultsBox";
@@ -14,7 +13,6 @@ class Nineteen extends Component {
     render() {
         return (
             <div>
-            <Header />
             <NavBar />
             <SearchWrapper>
             {/* <SearchBar />
@@ -22,7 +20,7 @@ class Nineteen extends Component {
             </SearchWrapper>
             <FictionBox />
             <NonFictionBox />
-            <Footer />
+            {/* <Footer /> */}
             </div>
         )
     }
