@@ -16,6 +16,13 @@ import axios from "axios";
 
 export default {
 
-//get base book list
+getBookByTitle: function(title) {
+    return axios.get("https://www.googleapis.com/books/v1/volumes?q=" + title)
+}
+
+//get saved fiction
+//get saved non-fiction
+//save book - by type?
+//delete book 
 
 };
