@@ -10,6 +10,14 @@ import API from "../utils/API";
 
 class Seventeen extends Component {
 
+state = {
+    books: [],
+    title: '',
+    author: ''
+}
+
+
+
 //componentDidMount{
 //     this.getSavedFiction()
 //     this.getSavedNonFiction()
