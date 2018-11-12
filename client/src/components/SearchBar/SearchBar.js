@@ -3,7 +3,11 @@ import "./SearchBar.css";
 
 const SearchBar = props => (
     <div className="search-bar">
-    <h1 className="hello">Hello</h1>
+    {/* input */}
+    <button type="submit" className="btn btn-success" //onClick={props.handleFormSubmit
+    >
+    Submit
+    </button>
     </div>
 )
 

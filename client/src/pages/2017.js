@@ -16,6 +16,8 @@ state = {
     author: ''
 }
 
+//1. On load, load saved fiction and non-fiction books from database
+//2. 
 
 
 //componentDidMount{
@@ -25,7 +27,10 @@ state = {
 
 
 handleInputChange = event => {
-    this.setState({ search: event.target.value })
+    const { name, value } = event.target;
+    this.setState({
+        [name]: value
+    })
 }
 
 handleFormSubmit = event => {
